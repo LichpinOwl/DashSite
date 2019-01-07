@@ -69,14 +69,15 @@ app.head = [
 app.footer = []
 
 app.layout = html.Div([
-	html.Div([
-		html.H1(['Hello world !'], className=['col-12 d-flex justify-content-center text-warning bg-dark font-weight-lighter m-5 align-content-center flex-wrap']), 
-		html.Div(['btn'], className = ['btn btn-secondary m-5']),
-		html.Div(['bulma Primary'], className = ['button is-danger'])
-		], 
-		className=['row'])
-	], 
-	className=['container'])
+			html.Div([
+				html.H1(['Hello world !'], className=['col-12 d-flex justify-content-center text-warning bg-dark font-weight-lighter m-5 align-content-center flex-wrap']), 
+				html.Div(['btn'], className = ['btn btn-secondary m-5']),
+				html.Div(['bulma Primary'], className = ['button is-danger'])
+				], 
+				className=['row'])
+			], 
+			className=['container']
+		)
 
 
 
